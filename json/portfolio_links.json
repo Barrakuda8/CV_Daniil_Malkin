@@ -1,0 +1,41 @@
+[
+    {
+        "link": "https://github.com/Barrakuda8",
+        "name": {
+            "EN": "My GitHub",
+            "FR": "Mon GitHub",
+            "RU": "Мой GitHub"
+        },
+        "comment": {
+            "EN": "There are my training projects, the code of this site, and my first solo project, but this one is, of course and unfortunately, private because it is made by me but owned by the customer.",
+            "FR": "Il y a mes projets de formation, le code de ce site et de mon premier projet solo, mais celui-ci est, bien sûr et malheureusement, privé car il est fait par moi mais appartient au client.",
+            "RU": "Там вы найдёте мои учебные проекты, код этого сайта, а также моего первого сольного проекта, который, конечно же и к сожалению, не доступен для просмотра, потому что написан мной, но принадлежит заказчику."
+        }
+    },
+    {
+        "link": "https://stonevibe.ru/",
+        "name": {
+            "EN": "My first solo project",
+            "FR": "Mon premier projet solo",
+            "RU": "Мой первый самостоятельный проект"
+        },
+        "comment": {
+            "EN": "It is a site for a company that makes various products from natural and artificial stones. The backend is made on Django, and the frontend is made on JavaScript and JQuery. It took me several months to get this site done, but I am really proud of the result. It is in Russian, so it could be difficult to evaluate my work, but you can translate it, for example, if you are a Google Chrome user. If so, I recommend you have a look at the calculator that visualizes and counts the price of almost any custom countertop that could be made of any of the available stones.",
+            "FR": "Il s'agit d'un site pour une entreprise qui fabrique divers produits à partir de pierres naturelles et artificielles. Le backend est fait sur Django, et le frontend est fait sur JavaScript et JQuery. Cela m'a pris plusieurs mois pour faire ce site, mais je suis vraiment fier du résultat. Il est en russe, il pourrait donc être difficile d'évaluer mon travail, mais vous pouvez le traduire, par exemple, si vous êtes un utilisateur de Google Chrome. Si c'est le cas, je vous recommande de jeter un coup d'œil à la calculatrice qui visualise et compte le prix de n'importe quel comptoir personnalisé qui pourrait être fait de n'importe laquelle des pierres disponibles.",
+            "RU": "Это сайт компании, создающей всяческие изделия из натурального и искусственного камня. Бэкенд написан на Django, а фронтенд на JavaScript и JQuery. Его разработка заняла у меня несколько месяцев, но я очень горд результатом. Рекомендую обратить ваше внимание на визуализирующий калькулятор для расчёта стоимости практически любой столешницы по вашему выбору, сделанной из доступного на сайте камня."
+        }
+    },
+    {
+        "link": "https://cv-daniil-malkin.site/",
+        "name": {
+            "EN": "My CV site",
+            "FR": "Site de mon CV",
+            "RU": "Сайт моего резюме"
+        },
+        "comment": {
+            "EN": "It is the site you are on right now. The frontend is made on React with JQuery, and the backend is made on Django. You can have a look at its code on my GitHub profile.",
+            "FR": "C'est le site sur lequel vous êtes en ce moment. Le frontend est fait sur React avec JQuery, et le backend est fait sur Django. Vous pouvez consulter son code sur mon profil GitHub.",
+            "RU": "Это сайт, на котором вы находитесь прямо сейчас. Фронтенд написан на React с использованием JQuery, а бэкенд на Django. Вы можете ознакомиться с его кодом в моём профиле на GitHub."
+        }
+    }
+]

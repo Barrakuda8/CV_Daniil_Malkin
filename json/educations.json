@@ -1,0 +1,113 @@
+[
+    {
+        "start_date": {
+            "EN": "2013",
+            "FR": "2013",
+            "RU": "2013"
+        },
+        "end_date": {
+            "EN": "2016",
+            "FR": "2016",
+            "RU": "2016"
+        },
+        "program": {
+            "EN": "High school diploma / A-level",
+            "FR": "Baccalauréat Scientifique, Sciences de l’Ingéneur (Spécialité Mathématiques)",
+            "RU": "Среднее (полное) общее образование"
+        },
+        "institution": {
+            "EN": "Agora Lycée",
+            "FR": "Lycée Agora",
+            "RU": "Лицей Агора"
+        },
+        "city": {
+            "EN": "Puteaux",
+            "FR": "Puteaux",
+            "RU": "Пюто"
+        },
+        "country": {
+            "EN": "France",
+            "FR": "France",
+            "RU": "Франция"
+        },
+        "comment": {
+            "EN": "I have completed high school-level studies in France and remotely in Russia at the same time.",
+            "FR": "J'ai effectué des études de lycée pour obtenir mon diplôme de baccalauréat en France et à distance en Russie en même temps.",
+            "RU": "Я окончил лицей во Франции очно и одновременно старшую школу в России удалённо. "
+        }
+    },
+    {
+        "start_date": {
+            "EN": "2017",
+            "FR": "2017",
+            "RU": "2017"
+        },
+        "end_date": {
+            "EN": "2020",
+            "FR": "2020",
+            "RU": "2020"
+        },
+        "program": {
+            "EN": "Bachelor degree in Management, Business Strategy and Economics",
+            "FR": "Licence de Gestion parcours Stratégie et Economie d'Entreprise",
+            "RU": "Бакалавр Менеджмента, Стратегия и экономика бизнеса"
+        },
+        "institution": {
+            "EN": "Paris 1 Panthéon-Sorbonne university",
+            "FR": "L'université Paris 1 Panthéon-Sorbonne",
+            "RU": "Университет Париж 1 Пантеон-Сорбонна"
+        },
+        "city": {
+            "EN": "Paris",
+            "FR": "Paris",
+            "RU": "Париж"
+        },
+        "country": {
+            "EN": "France",
+            "FR": "France",
+            "RU": "Франция"
+        },
+        "comment": {
+            "EN": "I graduated in 2021 and didn't continue my studies in the field of management because I finally realized what I wanted to do for a living and switched to programming.",
+            "FR": "J'ai obtenu mon diplôme en 2021 et je n'ai pas poursuivi mes études dans le domaine de la gestion car j'ai enfin réalisé ce que je voulais faire dans la vie et je suis passé à la programmation.",
+            "RU": "Я получил диплом бакалавра в 2021 и не стал продолжать обучение в направлении менеджмента, потому что наконец понял, чем хочу зарабатывать на жизнь, и пошёл в программирование."
+        }
+    },
+    {
+        "start_date": {
+            "EN": "2021",
+            "FR": "2021",
+            "RU": "2021"
+        },
+        "end_date": {
+            "EN": "2023",
+            "FR": "2023",
+            "RU": "2023"
+        },
+        "program": {
+            "EN": "Python Development Faculty",
+            "FR": "Faculté de développement Python",
+            "RU": "Факультет разработки Python"
+        },
+        "institution": {
+            "EN": "GeekUniversity",
+            "FR": "GeekUniversity",
+            "RU": "GeekUniversity"
+        },
+        "city": {
+            "EN": "Moscow",
+            "FR": "Moscou",
+            "RU": "Москва"
+        },
+        "country": {
+            "EN": "Russia",
+            "FR": "Russie",
+            "RU": "Россия"
+        },
+        "comment": {
+            "EN": "I studied Python, its algorithms, data structures, and architectural patterns; how to make sites' backends with Django and Django REST frameworks; and client-server applications with PyQT and threads. As for the frontend, I learned HTML, CSS, JavaScript, React, and a little bit of Vue.js. There were also courses on MySQL, Linux, Git, and Agile methodology and team practice with it.",
+            "FR": "J'ai étudié Python, ses algorithmes, ses structures de données et ses modèles architecturaux ; comment créer des backends de sites avec les frameworks Django et Django REST ; et des applications client-serveur avec PyQT et des threads. En ce qui concerne le frontend, j'ai appris HTML, CSS, JavaScript, React et un peu de Vue.js. Il y avait aussi des cours sur MySQL, Linux, Git et la méthodologie Agile et des travaux pratiques en équipe avec elle.",
+            "RU": "Я изучал Python, его алгоритмы, структуры данных и архитектурные паттерны; как писать бэкенд с помощью фреймворков Django и Django REST; и клиент-серверные приложения с использованием PyQT и потоков. Что касается фронтенда, я научился работать с HTML, CSS, JavaScript, React и немного с Vue.js. Также я прошёл курсы по MySQL, Linux, Git и методологии Agile, а также командную практику с её использованием."
+        }
+    }
+]

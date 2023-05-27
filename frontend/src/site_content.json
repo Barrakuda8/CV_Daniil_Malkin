@@ -1,0 +1,179 @@
+{
+    "EN": {
+        "header": {
+            "menu_portfolio": "Portfolio",
+            "menu_education": "Education",
+            "menu_experience": "Experience",
+            "menu_skillset": "Skillset",
+            "menu_game": "Mini game",
+            "header_title": "Daniil Malkin"
+        },
+        "mini_daniil": {
+            "initial": "Click on me",
+            "0": "Hello, my name is Mini Daniil.",
+            "1": "And I will show you Daniil's site!",
+            "2": "First of all, you can click on me to pause me",
+            "3": "And reclick to continue.",
+            "4": "I also would like to say that",
+            "5": "Every visual part of this site",
+            "6": "Is created with HTML, CSS, and JS (and its frameworks).",
+            "7": "Only flags and stars are images...",
+            "8": "...and Daniil's photo, of course.",
+            "9": "Well. Let's begin!",
+            "10": "You can click on this fabulous button",
+            "11": "To change the site's theme",
+            "12": "Or just to watch its beautiful animation.",
+            "13": "Follow this link to see my portfolio.",
+            "14": "And other useful links.",
+            "15": "Click on an object to see more information.",
+            "16": "Same goes for other sections of this site.",
+            "17": "You can read about Daniil's education on my left",
+            "17.5": "You can read about Daniil's education here",
+            "18": "And about Daniil's experience on my right.",
+            "18.5": "And about Daniil's experience here.",
+            "19": "Information about his language knowledge,",
+            "20": "As well as his programming and personal skills",
+            "21": "Is right there.",
+            "22": "And if you're on a PC,",
+            "23": "You can visit this page to play a game",
+            "24": "Created just for fun",
+            "25": "And some additional demonstration of Daniil's skill",
+            "26": "So, that's it!",
+            "27": "Hope you liked this presentation.",
+            "28": "If so, please give Daniil a chance!",
+            "29": "Enjoy further review of this site",
+            "30": "And have a good day c:"
+        },
+        "/": {
+            "main_text": "Hello, my name is Daniil, I am 25 years old, and I am a full stack developer. Since January 2022, I have been working on freelance projects. You can find them at the \"Portfolio|portfolio\" section of this site. \nI code in Python and JavaScript, often but not always using their frameworks. You can find more information about my skills in programming at the \"Skillset|skillset\" section of this site. \nI am fluent in English, French, and Russian. I have some decent active learning and analytical skills. I am attentive to details, well-organized, open-minded, critical thinker with an agile technical mindset. I am eager to improve my overall knowledge and gain new skills. \nI have a Bachelor degree in Management at Paris 1 Panthéon-Sorbonne University in France, and I've completed a two-year IT education program in Russia. You can take a look at the \"Education|education\" section of this site to learn more about it. \nI am based in Russia for the moment, and I am searching for a job and a relocation.\nPlease feel free to reach me out via WhatApp or Telegram at +79046393078 or email at brpslelush@gmail.com."
+        },
+        "/game": {
+            "game_button_text": "Click me",
+            "game_score_label": "Score: ",
+            "game_speed_label": "Speed (1 to 10): "
+        },
+        "/skillset": {
+            "skills_language": "Languages",
+            "skills_programming": "Programming skills",
+            "skills_personal": "Personal skills"
+        }
+    },
+    "FR": {
+        "header": {
+            "menu_portfolio": "Portfolio",
+            "menu_education": "Formation",
+            "menu_experience": "Expérience",
+            "menu_skillset": "Compétences",
+            "menu_game": "Mini jeu",
+            "header_title": "Daniil Malkin"
+        },
+        "mini_daniil": {
+            "initial": "Cliques sur moi",
+            "0": "Bonjour, je m'appelle Mini Daniil.",
+            "1": "Et je vais vous montrer le site de Daniil!",
+            "2": "Tout d'abord, vous pouvez cliquer sur moi pour me mettre en pause",
+            "3": "Et recliquer pour continuer.",
+            "4": "Je voudrais aussi dire que",
+            "5": "Chaque partie visuelle de ce site",
+            "6": "Est créé avec HTML, CSS et JS (et ses frameworks).",
+            "7": "Seuls les drapeaux et les étoiles sont des images...",
+            "8": "...et la photo de Daniil, bien sûr.",
+            "9": "Eh bien. On y va!",
+            "10": "Vous pouvez cliquer sur ce fabuleux bouton",
+            "11": "Pour changer le thème du site",
+            "12": "Ou juste pour regarder sa belle animation.",
+            "13": "Suivez ce lien pour consulter mon portfolio.",
+            "14": "Ainsi que d'autres liens utiles.",
+            "15": "Cliquez sur un objet pour en savoir plus.",
+            "16": "C'est aussi valable pour les autres sections de ce site.",
+            "17": "Vous pouvez vous renseigner sur l'éducation de Daniil à ma gauche",
+            "17.5": "Vous pouvez vous renseigner sur l'éducation de Daniil ici",
+            "18": "Et en savoir plus sur son l'expérience à ma droite.",
+            "18.5": "Et en savoir plus sur son l'expérience ici.",
+            "19": "Informations sur ses connaissances linguistiques et en programmation",
+            "20": "Ainsi que sur ses compétences personnelles",
+            "21": "Sont juste là.",
+            "22": "Et si vous êtes sur PC,",
+            "23": "Vous pouvez visiter cette page pour jouer à un jeu",
+            "24": "Créé juste pour le plaisir",
+            "25": "Et une démonstration supplémentaire des compétences de Daniil",
+            "26": "Alors, c'est terminé!",
+            "27": "J'espère que vous avez aimé cette présentation.",
+            "28": "Si c'est le cas, donnez une chance à Daniil!",
+            "29": "Profitez d'un examen approfondi de ce site",
+            "30": "Et bonne journée c:"
+        },
+        "/": {
+            "main_text": "Bonjour, je m'appelle Daniil, j'ai 25 ans et je suis développeur full stack. Depuis janvier 2022, je travaille sur des projets indépendants. Vous pouvez les trouver dans la section \"Portfolio|portfolio\" de ce site. \nJe code en Python et JavaScript, en utilisant souvent mais pas tout le temps leurs frameworks. Vous pouvez trouver plus d'informations sur mes compétences en programmation dans la section \"Compétences|skillset\" de ce site. \nJe parle couramment l'anglais, le français et le russe. J'ai une forte capacité d'apprentissage actif et des compétences analytiques excellentes. Je suis rigoureux, attentif aux détails, ponctuel et ouvert d'esprit. Je suis désireux d'améliorer mes connaissances et d'acquérir de nouvelles compétences. \nJ'ai un diplôme de licence de gestion à l'université Paris 1 Panthéon-Sorbonne et j'ai terminé un programme de formation en programmation de deux ans en Russie. Vous pouvez jeter un coup d'oeil à la section \"Education|education\" de ce site pour en savoir plus. \nJe suis basé en Russie pour le moment et je suis à la recherche d'un emploi et d'un déménagement. \nN'hésitez pas à me contacter via WhatApp ou Telegram au +79046393078 ou par e-mail à brpslelush@gmail.com."
+        },
+        "/game": {
+            "game_button_text": "Cliques moi",
+            "game_score_label": "Points: ",
+            "game_speed_label": "Vitesse (1 à 10): "
+        },
+        "/skillset": {
+            "skills_language": "Langues",
+            "skills_programming": "Programmation",
+            "skills_personal": "Personnelles"
+        }
+    },
+    "RU": {
+        "header": {
+            "menu_portfolio": "Портфолио",
+            "menu_education": "Образование",
+            "menu_experience": "Опыт работы",
+            "menu_skillset": "Навыки",
+            "menu_game": "Мини игра",
+            "header_title": "Даниил Малкин"
+        },
+        "mini_daniil": {
+            "initial": "Нажми на меня",
+            "0": "Здравствуйте, меня зовут Мини Даниил",
+            "1": "И я покажу вам сайт Даниила!",
+            "2": "Вы можете нажать на меня, чтобы приостановить,",
+            "3": "И нажать ещё раз, чтобы продолжить",
+            "4": "Также хотелось бы сказать, что",
+            "5": "Все визуальные составляющие этого сайта",
+            "6": "Сделаны с помощью HTML, CSS и JS (и его фреймворков).",
+            "7": "Только флаги и звёздочки являются изображениями...",
+            "8": "...и фотография Даниила, конечно же.",
+            "9": "Что ж. Давайте начнём!",
+            "10": "Нажмите на эту восхитительную кнопку,",
+            "11": "Чтобы сменить тему сайта",
+            "12": "Или просто посмотреть на красивую анимацию",
+            "13": "Перейдите по ссылке, чтобы ознакомиться с портфолио",
+            "14": "И другими полезными ссылками.",
+            "15": "Нажмите на объект, чтобы узнать больше.",
+            "16": "Это работает и в других разделах сайта.",
+            "17": "Вы можете прочитать об образовании Даниила слева от меня,",
+            "17.5": "Вы можете прочитать об образовании Даниила здесь,",
+            "18": "А о его опыте работы справа от меня.",
+            "18.5": "А о его опыте работы здесь.",
+            "19": "Информацию о его языковых знаниях,",
+            "20": "А также в области программирования и его личных качествах",
+            "21": "Можете найти тут.",
+            "22": "И если вы смотрите этот сайт с ПК,",
+            "23": "Можете посетить эту страницу, чтобы сыграть в игру,",
+            "24": "Созданную ради развлечения",
+            "25": "И дополнительной демонстрации навыков Даниила.",
+            "26": "Вот и всё!",
+            "27": "Надеюсь вам понравилась презентация.",
+            "28": "Если так, пожалуйста, дайте Даниилу шанс!",
+            "29": "Приятного ознакомления с информацией на сайте",
+            "30": "И хорошего дня c:"
+        },
+        "/": {
+            "main_text": "Здравствуйте, меня зовут Даниил, мне 25 лет и я full stack разработчик. С января 2022 года я работаю над фриланс проектами. Вы можете с ними ознакомиться в разделе \"Портфолио|portfolio\" этого сайта. \nЯ пишу на Python и JavaScript, часто, но всегда, пользуясь их фреймворками. Вы можете более подробно узнать о моих навыках в программировании в разделе \"Навыки|skillset\" этого сайта. \nЯ свободно разговариваю на английском, французском и русском языках. Я внимателен к деталям, хорошо организован, быстро обучаем и у меня технический склад ума. Я стремлюсь получить новые знания и улучшить свои навыки при любой возможности.\nЯ получил диплом бакалавра в области менеджмента в университете Париж 1 Пантеон-Сорбонна и окончил двухлетние курсы программирования в России. Вы можете заглянуть в раздел \"Образование|education\", чтобы узнать больше. \nНа данный момент я нахожусь в России и ищу работу с возможностью релокации. \nНе стесняйтесь писать мне на WhatsApp или Telegram по номеру +79046393078 или по электронной почте на brpslelush@gmail.com."
+        },
+        "/game": {
+            "game_button_text": "Нажми меня",
+            "game_score_label": "Счёт: ",
+            "game_speed_label": "Скорость (1 до 10): "
+        },
+        "/skillset": {
+            "skills_language": "Языки",
+            "skills_programming": "Программирование",
+            "skills_personal": "Личностные качества"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "light": {
+        "theme_sun": {
+            "left": "7%"
+        },
+        "theme_sky_one": {
+            "left": "-15%"
+        },
+        "theme_sky_two": {
+            "left": "-2%"
+        },
+        "theme_sky_three": {
+            "left": "11%"
+        },
+        "theme_cloud_one": {
+            "top": "65%",
+            "left": "7%"
+        },
+        "theme_cloud_two": {
+            "top": "55%",
+            "left": "36%"
+        },
+        "theme_cloud_three": {
+            "top": "60%",
+            "left": "49%"
+        },
+        "theme_cloud_four": {
+            "top": "45%",
+            "left": "60%"
+        },
+        "theme_cloud_five": {
+            "top": "35%",
+            "left": "71%"
+        },
+        "theme_cloud_six": {
+            "top": "-10%",
+            "left": "87%"
+        },
+        "theme_cloud_seven": {
+            "top": "75%",
+            "left": "9%"
+        },
+        "theme_cloud_eight": {
+            "top": "75%",
+            "left": "38%"
+        },
+        "theme_cloud_nine": {
+            "top": "80%",
+            "left": "51%"
+        },
+        "theme_cloud_ten": {
+            "top": "70%",
+            "left": "67%"
+        },
+        "theme_cloud_eleven": {
+            "top": "45%",
+            "left": "80%"
+        },
+        "theme_cloud_twelve": {
+            "top": "10%",
+            "left": "89%"
+        },
+        "theme_moon_hole_one": {
+            "left": "11%"
+        },
+        "theme_moon_hole_two": {
+            "left": "18%"
+        },
+        "theme_moon_hole_three": {
+            "left": "27%"
+        }
+    },
+    "dark": {
+        "theme_sun": {
+            "left": "62%"
+        },
+        "theme_sky_one": {
+            "left": "49%"
+        },
+        "theme_sky_two": {
+            "left": "36%"
+        },
+        "theme_sky_three": {
+            "left": "22%"
+        },
+        "theme_cloud_one": {
+            "top": "90%",
+            "left": "13%"
+        },
+        "theme_cloud_two": {
+            "top": "80%",
+            "left": "36%"
+        },
+        "theme_cloud_three": {
+            "top": "85%",
+            "left": "49%"
+        },
+        "theme_cloud_four": {
+            "top": "70%",
+            "left": "60%"
+        },
+        "theme_cloud_five": {
+            "top": "45%",
+            "left": "71%"
+        },
+        "theme_cloud_six": {
+            "top": "10%",
+            "left": "80%"
+        },
+        "theme_cloud_seven": {
+            "top": "100%",
+            "left": "13%"
+        },
+        "theme_cloud_eight": {
+            "top": "95%",
+            "left": "36%"
+        },
+        "theme_cloud_nine": {
+            "top": "110%",
+            "left": "49%"
+        },
+        "theme_cloud_ten": {
+            "top": "70%",
+            "left": "67%"
+        },
+        "theme_cloud_eleven": {
+            "top": "60%",
+            "left": "80%"
+        },
+        "theme_cloud_twelve": {
+            "top": "30%",
+            "left": "80%"
+        },
+        "theme_moon_hole_one": {
+            "left": "67%"
+        },
+        "theme_moon_hole_two": {
+            "left": "76%"
+        },
+        "theme_moon_hole_three": {
+            "left": "82%"
+        }
+    }
+}

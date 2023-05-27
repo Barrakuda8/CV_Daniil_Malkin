@@ -1,0 +1,75 @@
+$base-color: #404040;
+$text-color: white;
+
+body, .header, .game_speed, .mini_daniil_text_cloud, .mini_daniil_text_cloud_bottom {
+    background-color: $base-color;
+}
+
+span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text_cloud {
+    color: $text-color;
+}
+
+.theme_cloud_back {
+    background-color: #aeb1b8;
+}
+
+.theme_cloud_front {
+    background-color: #dde2e8;
+}
+
+.theme_sun {
+    background-color: #c2c7cd;
+}
+
+.theme_sky_one {
+    background-color: #4f525d;
+}
+
+.theme_sky_two {
+    background-color: #3f414f;
+}
+
+.theme_sky_three {
+    background-color: #2b333c;
+}
+
+.theme_sky_four {
+    background-color: #1b1d2b;
+}
+
+.theme_moon_hole, .theme_star {
+    display: block;
+}
+
+.m_menu_background {
+    background-color: #4f525d;
+    opacity: 0.5;
+}
+
+.item_arrow {
+    opacity: 1;
+}
+
+.m_menu_close, .game_button, .game_button_head, .game_button_right_leg, .game_button_left_leg,
+.mini_daniil_text_cloud, .mini_daniil_text_cloud_bottom {
+    border-color: $text-color;
+}
+
+.mini_daniil_hair, .mini_daniil_tail {
+    background-color: #916b3e;
+}
+
+.mini_daniil_right_eyebrow, .mini_daniil_left_eyebrow {
+    border-color: #916b3e;
+}
+
+@media (max-width: 767px) {
+
+    .menu_block {
+        background-color: $base-color;
+    }
+
+    .menu_link {
+        border-bottom: 1px solid $text-color;
+    }
+}

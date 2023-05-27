@@ -1,0 +1,113 @@
+[
+    {
+        "start_date": {
+            "EN": "July 2017",
+            "FR": "Juillet 2017",
+            "RU": "Июль 2017"
+        },
+        "end_date": {
+            "EN": "July 2017",
+            "FR": "Juillet 2017",
+            "RU": "Июль 2017"
+        },
+        "position": {
+            "EN": "Intern in Sales Department",
+            "FR": "Stagiaire à l'ADV",
+            "RU": "Стажер в Отделе Продаж"
+        },
+        "organisation": {
+            "EN": "Smurfit Kappa",
+            "FR": "Smurfit Kappa",
+            "RU": "Smurfit Kappa"
+        },
+        "city": {
+            "EN": "Saint-Petersburg",
+            "FR": "Saint-Petersbourg",
+            "RU": "Санкт-Петербург"
+        },
+        "country": {
+            "EN": "Russia",
+            "FR": "Russie",
+            "RU": "Россия"
+        },
+        "comment": {
+            "EN": "I was mostly doing analytical work in Excel during this internship.",
+            "FR": "J'effectuais principalement du travail d'analyse sous Excel durant ce stage.",
+            "RU": "Я в основном выполнял аналитическую работу в Excel во время этой стажировки."
+        }
+    },
+    {
+        "start_date": {
+            "EN": "March 2018",
+            "FR": "Mars 2018",
+            "RU": "Март 2018"
+        },
+        "end_date": {
+            "EN": "January 2022",
+            "FR": "Janvier 2022",
+            "RU": "Январь 2022"
+        },
+        "position": {
+            "EN": "Waiter / Head waiter",
+            "FR": "Serveur / Chef de rang",
+            "RU": "Официант / Главный официант"
+        },
+        "organisation": {
+            "EN": "Fuxia Batignolles",
+            "FR": "Fuxia Batignolles",
+            "RU": "Fuxia Batignolles"
+        },
+        "city": {
+            "EN": "Paris",
+            "FR": "Paris",
+            "RU": "Париж"
+        },
+        "country": {
+            "EN": "France",
+            "FR": "France",
+            "RU": "Франция"
+        },
+        "comment": {
+            "EN": "When I studied at the university, I worked as a part-time waiter, was promoted to head waiter, and even worked as an assistant manager fully responsible for the restaurant during my work shifts for a brief period before quitting for programming.",
+            "FR": "Pendant mes études à l'université, j'ai travaillé en tant que serveur à temps partiel, j'ai été promu chef de rang et j'ai même travaillé en tant qu'assistant manager entièrement responsable du restaurant le temps de mes services pendant une brève période avant de quitter pour la programmation.",
+            "RU": "Проходя обучение в университете, я подрабатывал официантом, потом был повышен до старшего официанта, а под конец даже успел поработать исполняющим обязанности менеджера, полностью ответственным за ресторан во время своих смен, до того как ушёл с этой работы, чтобы стать программистом."
+        }
+    },
+    {
+        "start_date": {
+            "EN": "February 2022",
+            "FR": "Février 2022",
+            "RU": "Февраль 2022"
+        },
+        "end_date": {
+            "EN": "Current",
+            "FR": "Présent",
+            "RU": "Настоящее время"
+        },
+        "position": {
+            "EN": "Full Stack Developer",
+            "FR": "Développeur Full Stack",
+            "RU": "Full Stack Разработчик"
+        },
+        "organisation": {
+            "EN": "Self-employed",
+            "FR": "Indépendant",
+            "RU": "Самозанятый"
+        },
+        "city": {
+            "EN": "Saint-Petersburg",
+            "FR": "Saint-Petersbourg",
+            "RU": "Санкт-Петербург"
+        },
+        "country": {
+            "EN": "Russia",
+            "FR": "Russie",
+            "RU": "Россия"
+        },
+        "comment": {
+            "EN": "I have been programming for almost three years and doing actual sites for a year now. You can find them at the \"Portfolio|portfolio\" section, and my skills in the field of programming as well as my language and personal skills at the \"Skillset|skillset\" section.",
+            "FR": "Je programme depuis presque trois ans et je fais des sites réels depuis un an maintenant. Vous pouvez les retrouver dans la rubrique \"Portfolio|portfolio\", et mes compétences dans le domaine de la programmation ainsi que mes compétences linguistiques et personnelles dans la rubrique \"Compétences|skillset\".",
+            "RU": "Я программирую уже в течение трёх лет и делаю реальные сайты в течение года. Вы можете ознакомиться в ними в разделе \"Портфолио|portfolio\", а с моими навыками в программировании, моим знанием языков и моими личными качествами в разделе \"Навыки|skillset\"."
+        }
+    }
+]

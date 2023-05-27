@@ -1,0 +1,288 @@
+[
+    {
+        "name": {
+            "EN": "English",
+            "FR": "Anglais",
+            "RU": "Английский"
+        },
+        "type": "language",
+        "comment": {
+            "EN": "I have an upper intermediate level in English. I am consuming a lot of content in it, but I have not had an opportunity to practice it a lot in oral speech.",
+            "FR": "J'ai un niveau intermédiaire supérieur en anglais. J'y consomme beaucoup de contenu, mais je n'ai pas eu l'occasion de le pratiquer beaucoup en oral.",
+            "RU": "У меня хороший уровень английского. Я потребляю большое количество контента на нём, но к сожалению мне не доводилось много практиковаться в устной речи."
+        }
+    },
+    {
+        "name": {
+            "EN": "French",
+            "FR": "Français",
+            "RU": "Французский"
+        },
+        "type": "language",
+        "comment": {
+            "EN": "I had been living, studying, and working in French for more than nine years.",
+            "FR": "J'habitais, étudiais et travaillais en français pendant plus de neuf ans.",
+            "RU": "Я жил, учился и работал на французском в течение более девяти лет."
+        }
+    },
+    {
+        "name": {
+            "EN": "Russian",
+            "FR": "Russe",
+            "RU": "Русский"
+        },
+        "type": "language",
+        "comment": {
+            "EN": "I am Russian. It is my native language.",
+            "FR": "Je suis Russe. C'est ma langue maternelle.",
+            "RU": "Я русский, и это мой родной язык."
+        }
+    },
+    {
+        "name": {
+            "EN": "Python",
+            "FR": "Python",
+            "RU": "Python"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I have more than two years of learning and working experience with Python. Besides Django and DRF, I have been working with many other Python libraries, such as Pandas, Channels, GraphQL, PyQT, or SQLAlchemy, for example. I also gained some knowledge of Python's algorithms, data structures, and architectural patterns.",
+            "FR": "J'ai plus de deux ans d'expérience d'apprentissage et de travail avec Python. Outre Django et DRF, j'ai travaillé avec de nombreuses autres bibliothèques Python, telles que Pandas, Channels, GraphQL, PyQT ou SQLAlchemy, par exemple. J'ai également acquis des connaissances sur les algorithmes, les structures de données et les modèles architecturaux de Python.",
+            "RU": "У меня больше двух лет опыта обучения и работы с Python. Помимо Django и DRF, я работал с множеством других библиотек, таких как Pandas, Channels, GraphQL, PyQT, or SQLAlchemy, к примеру. Я также получал знания по алгоритмам, структурам данных и архитектурным паттернам Python."
+        }
+    },
+    {
+        "name": {
+            "EN": "Django",
+            "FR": "Django",
+            "RU": "Django"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I have quite a lot of experience with Django: several courses, training projects, and a full-fledged site that you can find through the \"Portfolio|portfolio\" section.",
+            "FR": "J'ai pas mal d'expérience avec Django : plusieurs cours, des projets de formation, et un site complet que vous pouvez retrouver dans la rubrique \"Portfolio|portfolio\".",
+            "RU": "Я меня достаточно много опыта работы с Django: несколько курсов, учебных проектов и полноценный сайт, который вы можете найти, перейдя в раздел \"Портфолио|portfolio\"."
+        }
+    },
+    {
+        "name": {
+            "EN": "Django REST framework",
+            "FR": "Django REST framework",
+            "RU": "Django REST framework"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I completed a course entirely dedicated to DRF.",
+            "FR": "J'ai suivi un cours entièrement dédié au DRF.",
+            "RU": "Я прошёл курс, полностью посвящённый DRF."
+        }
+    },
+    {
+        "name": {
+            "EN": "JavaScript",
+            "FR": "JavaScript",
+            "RU": "JavaScript"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "It is an essential language to know for every full-stack developer, and I am excellent at it. I use a ton of JavaScript in both my real projects, and I really like to write on it. It is worth noting that I have experience using WebSockets.",
+            "FR": "C'est un langage essentiel à connaître pour tout développeur full-stack, et je le maîtrise parfaitement. J'utilise une tonne de JavaScript dans mes deux projets réels, et j'aime vraiment programmer avec. Il est à noter que j'ai de l'expérience avec les WebSockets.",
+            "RU": "Это язык программирования, необходимый любому full-stack разработчику, и я отлично им владею. Огромная часть кода в обоих моих проектах написана на этом языке, и я люблю на нём писать. Также стоит отметить, что у меня есть определённый опыт работы с WebSockets."
+        }
+    },
+    {
+        "name": {
+            "EN": "JQuery",
+            "FR": "JQuery",
+            "RU": "JQuery"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I like this library and use it a lot when working with JavaScript.",
+            "FR": "J'aime cette bibliothèque et je l'utilise beaucoup lorsque je travaille avec JavaScript.",
+            "RU": "Мне нравится эта библиотека, и я очень часто ею пользуюсь при работе с JavaScript."
+        }
+    },
+    {
+        "name": {
+            "EN": "React",
+            "FR": "React",
+            "RU": "React"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I completed a course on this framework, and this site is made with it. You can have a look at its code on my \"GitHub|portfolio\" profile.",
+            "FR": "J'ai suivi un cours sur ce framework, et ce site est fait avec. Vous pouvez consulter son code sur mon profil sur \"GitHub|portfolio\".",
+            "RU": "Я прошёл курс по этому фреймворку. Также на нём написан этот сайт. Вы можете взглянуть на его код в моём профиле на \"GitHub|portfolio\"."
+        }
+    },
+    {
+        "name": {
+            "EN": "Vue.js",
+            "FR": "Vue.js",
+            "RU": "Vue.js"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I completed a course entirely dedicated to Vue.js, but worked more with React.",
+            "FR": "J'ai suivi un cours entièrement dédié à Vue.js, mais j'ai davantage travaillé avec React.",
+            "RU": "Я прошёл курс, полностью посвящённый Vue.js, но больше работал с React."
+        }
+    },
+    {
+        "name": {
+            "EN": "HTML",
+            "FR": "HTML",
+            "RU": "HTML"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I am excellent at HTML.",
+            "FR": "Je suis excellent en HTML.",
+            "RU": "Я отлично разбираюсь в HTML."
+        }
+    },
+    {
+        "name": {
+            "EN": "CSS / SCSS",
+            "FR": "CSS / SCSS",
+            "RU": "CSS / SCSS"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I am excellent at CSS. I use the SCSS preprocessor very often because it is a very practical solution.",
+            "FR": "Je suis excellent en CSS. J'utilise souvent le préprocesseur SCSS car c'est une solution très pratique.",
+            "RU": "Я отлично разбираюсь в CSS. Я часто пользуюсь препроцессором SCSS, потому что это очень удобное решение."
+        }
+    },
+    {
+        "name": {
+            "EN": "SQL",
+            "FR": "SQL",
+            "RU": "SQL"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I have tons of experience using relational databases in Django, but also in the form of pure MySQL or PostgreSQL.",
+            "FR": "J'ai beaucoup d'expérience dans l'utilisation de bases de données relationnelles dans Django, mais aussi sous la forme de MySQL ou de PostgreSQL purs.",
+            "RU": "У меня много опыта использования реляционных баз данных в Django, но также в MySQL и PostgreSQL в чистом виде."
+        }
+    },
+    {
+        "name": {
+            "EN": "Redis",
+            "FR": "Redis",
+            "RU": "Redis"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I have had a little experience with Redis while working with ASGI.",
+            "FR": "J'ai eu une petite expérience avec Redis lorsque j'ai travaillé avec ASGI.",
+            "RU": "Я получил небольшой опыт использования Redis, когда работал с ASGI."
+        }
+    },
+    {
+        "name": {
+            "EN": "Docker",
+            "FR": "Docker",
+            "RU": "Docker"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I know how to use Docker. I have decent experience with it. In fact, this site is deployed with it.",
+            "FR": "Je sais utiliser Docker. J'ai une expérience décente avec ça. En fait, ce site est déployé avec.",
+            "RU": "Я умею пользоваться Docker. У меня есть определённый опыт работы с ним. В частности, этот сайт развёрнут с его помощью."
+        }
+    },
+    {
+        "name": {
+            "EN": "Git",
+            "FR": "Git",
+            "RU": "Git"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I am experienced in controlling versions using Git.",
+            "FR": "Je suis expérimenté dans le contrôle des versions avec Git.",
+            "RU": "Я опытен в контроле версий с помощью Git."
+        }
+    },
+    {
+        "name": {
+            "EN": "Linux",
+            "FR": "Linux",
+            "RU": "Linux"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I am a Windows user, but I completed a course on Linux, and I have some experience using it during my sites' and projects' deployment.",
+            "FR": "Je suis un utilisateur de Windows, mais j'ai suivi un cours sur Linux, et j'ai une certaine expérience de son utilisation lors du déploiement de mes sites et de mes projets.",
+            "RU": "Я пользуюсь Windows, но у меня был курс по Linux и определённый опыт его использования при развёртывании моих сайтов и проектов."
+        }
+    },
+    {
+        "name": {
+            "EN": "Waterfall, Agile and DevOps methodologies",
+            "FR": "Méthodologies Waterfall, Agile et DevOps",
+            "RU": "Методологии Waterfall, Agile and DevOps"
+        },
+        "type": "programming",
+        "comment": {
+            "EN": "I completed a theoretical course on Waterfall and Agile methodologies. I also was a team leader during the final project of my programming studies, and we used Scrum pretty successfully. I have understanding of DevOps methodology.",
+            "FR": "J'ai suivi un cours théorique sur les méthodologies Waterfall et Agile. J'étais également chef d'équipe lors du projet final de mes études de programmation, et nous avons utilisé Scrum avec succès. J'ai une compréhension de la méthodologie DevOps.",
+            "RU": "Я прошёл теоретический курс по методологиям Waterfall и Agile. Также я был тимлидом во время итогового проекта на курсах программирования, и мы весьма успешно использовали Scrum. У меня есть понимания методологии DevOps."
+        }
+    },
+    {
+        "name": {
+            "EN": "Active learning",
+            "FR": "Apprentissage actif",
+            "RU": "Активное обучение"
+        },
+        "type": "personal",
+        "comment": {
+            "EN": "I am a fast learner and I am always happy to learn something new.",
+            "FR": "J'apprends vite et je suis toujours heureux d'apprendre quelque chose de nouveau.",
+            "RU": "Я быстро обучаемый и всегда рад узнать что-то новое."
+        }
+    },
+    {
+        "name": {
+            "EN": "Analytical skills",
+            "FR": "Compétences analytiques",
+            "RU": "Аналитические способности"
+        },
+        "type": "personal",
+        "comment": {
+            "EN": "I have a very logical mind, and I am strong in data analysis.",
+            "FR": "J'ai un esprit très logique et je suis fort dans l'analyse de données.",
+            "RU": "У меня сильно развито логическое мышление и я силён в аналитике данных."
+        }
+    },
+    {
+        "name": {
+            "EN": "Creative problem solving",
+            "FR": "Résolution créative de problèmes",
+            "RU": "Творческий подход к решению проблем"
+        },
+        "type": "personal",
+        "comment": {
+            "EN": "If there is a problem, I will be able to find a solution myself.",
+            "FR": "S'il y a un problème, je serai capable de trouver une solution moi-même.",
+            "RU": "Если есть проблема, я смогу сам найти решение."
+        }
+    },
+    {
+        "name": {
+            "EN": "Open-minded",
+            "FR": "Ouverture d'esprit",
+            "RU": "Открытость"
+        },
+        "type": "personal",
+        "comment": {
+            "EN": "I am open to dialog and consider other opinions and ideas.",
+            "FR": "Je suis ouvert au dialogue et à considérer d'autres opinions et idées.",
+            "RU": "Я открыт к диалогу и готов слушать и рассматривать чужие мнения и идеи."
+        }
+    }
+]
