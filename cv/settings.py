@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-^f1#4x5%qik8)5+05a%!bjbc33ro$l7b+f))psbt4_o^8j&6&$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = ['185.46.8.161', 'cv-daniil-malkin.site', 'www.cv-daniil-malkin.site']
+# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['185.46.8.161', 'cv-daniil-malkin.site', 'www.cv-daniil-malkin.site']
 
 
 # Application definition
@@ -55,9 +55,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3000'
+# ]
 
 ROOT_URLCONF = 'cv.urls'
 
@@ -83,23 +83,23 @@ WSGI_APPLICATION = 'cv.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'cv',
-#         'USER': 'DaniilM',
-#         'PASSWORD': 'YS4zkoE5Vn',
-#         'HOST': 'db',
-#         'PORT': '5432'
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cv',
+        'USER': 'DaniilM',
+        'PASSWORD': 'YS4zkoE5Vn',
+        'HOST': 'db',
+        'PORT': '5432'
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
