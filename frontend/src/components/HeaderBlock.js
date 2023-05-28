@@ -3,7 +3,39 @@ import {NavLink} from 'react-router-dom';
 import $ from 'jquery';
 import language_data from '../site_content.json';
 
-const MenuLink = ({link, language}) => {
+const openMenu = () => {
+    $('.menu_block').animate({
+        'top': '50px'
+    }, 400)
+
+    $('.m_menu_background').css('display', 'flex');
+
+    window.setTimeout(() => {
+        $('.m_menu_open').css('display', 'none');
+        $('.header_title').css('display', 'none');
+        $('.header_language').css('display', 'flex');
+        $('.theme_block').css('display', 'flex');
+        $('.m_menu_close').css('display', 'flex');
+    }, 200)
+}
+
+const closeMenu = () => {
+    $('.menu_block').animate({
+        'top': '-250px'
+    }, 400)
+
+    $('.m_menu_background').css('display', '');
+    $('.m_menu_close').css('display', '');
+
+    window.setTimeout(() => {
+        $('.m_menu_open').css('display', '');
+        $('.header_title').css('display', '');
+        $('.header_language').css('display', '');
+        $('.theme_block').css('display', '');
+    }, 200)
+}
+
+const MenuLink = ({link, language, miniDaniilState}) => {
 
     /*
         link: link (string)
@@ -12,7 +44,7 @@ const MenuLink = ({link, language}) => {
     */
 
     return (
-        <NavLink to={'/' + link} className='menu_link' id={'menu_' + link}>{language_data[language]['header'][`menu_${link}`]}</NavLink>
+        <NavLink to={'/' + link} className='menu_link' id={'menu_' + link} onClick={closeMenu}>{language_data[language]['header'][`menu_${link}`]}</NavLink>
     )
 }
 
@@ -39,38 +71,6 @@ const HeaderBlock = ({links, language, languages, changeLanguage, changeTheme}) 
         changeTheme: function changing the site's theme
         return: site's header with menu, change theme button and language change buttons
     */
-
-    function openMenu() {
-        $('.menu_block').animate({
-            'top': '50px'
-        }, 400)
-
-        $('.m_menu_background').css('display', 'flex');
-
-        window.setTimeout(() => {
-            $('.m_menu_open').css('display', 'none');
-            $('.header_title').css('display', 'none');
-            $('.header_language').css('display', 'flex');
-            $('.theme_block').css('display', 'flex');
-            $('.m_menu_close').css('display', 'flex');
-        }, 200)
-    }
-
-    function closeMenu() {
-        $('.menu_block').animate({
-            'top': '-250px'
-        }, 400)
-
-        $('.m_menu_background').css('display', '');
-        $('.m_menu_close').css('display', '');
-
-        window.setTimeout(() => {
-            $('.m_menu_open').css('display', '');
-            $('.header_title').css('display', '');
-            $('.header_language').css('display', '');
-            $('.theme_block').css('display', '');
-        }, 200)
-    }
 
     return (
         <div className='header container'>
@@ -118,6 +118,8 @@ const HeaderBlock = ({links, language, languages, changeLanguage, changeTheme}) 
             <div className='menu_block'>
                 {links.map((link) => <MenuLink link={link} language={language} key={link} />)}
             </div>
+            <NavLink to='/education' className='m_menu_education'></NavLink>
+            <NavLink to='/experience' className='m_menu_experience'></NavLink>
             <div className='m_menu_close m_menu_close_right' onClick={() => closeMenu()}></div>
             <div className='m_menu_close m_menu_close_left' onClick={() => closeMenu()}></div>
             <div className='m_menu_background' onClick={() => closeMenu()}></div>

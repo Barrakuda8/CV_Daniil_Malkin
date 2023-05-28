@@ -13,7 +13,7 @@ const Experience = ({experience, language, showComment}) => {
     let comment = experience.comment[language].replace(/"([a-zA-Zа-яёА-ЯЁ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
 
     return (
-        <div className='item_block' onClick={() => showComment(experience.id)}>
+        <div className='item_block' onClick={(e) => showComment(e, experience.id)}>
             <span className='item_name'>{experience.position[language]}</span>
             <span className='item_param'>{experience.organisation[language]}, {experience.city[language]}, {experience.country[language]}</span>
             <span className='item_param'>{experience.start_date[language]} - {experience.end_date[language]}</span>

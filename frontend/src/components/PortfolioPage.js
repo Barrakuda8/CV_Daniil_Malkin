@@ -13,7 +13,7 @@ const PortfolioLink = ({link, language, showComment}) => {
     let comment = link.comment[language].replace(/"([a-zA-Zа-яёА-ЯЁ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
 
     return (
-        <div className='item_block' onClick={() => showComment(link.id)}>
+        <div className='item_block' onClick={(e) => showComment(e, link.id)}>
             <span className='item_name'>{link.name[language]}</span>
             <a className='item_link' href={link.link}>{link.link}</a>
             <span className={'item_comment comment_' + link.id}>{parse(comment)}</span>

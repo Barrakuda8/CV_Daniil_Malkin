@@ -14,7 +14,7 @@ const Skill = ({skill, language, showComment}) => {
     let comment = skill.comment[language].replace(/"([a-zA-Zа-яёА-ЯЁ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
 
     return (
-        <div className='item_block' onClick={() => showComment(skill.id)}>
+        <div className='item_block' onClick={(e) => showComment(e, skill.id)}>
             <span className='item_name'>{skill.name[language]}</span>
             <span className={'item_comment comment_' + skill.id}>{parse(comment)}</span>
             <div className={'item_arrow arrow_' + skill.id}></div>

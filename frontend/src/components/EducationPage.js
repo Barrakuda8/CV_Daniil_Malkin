@@ -13,7 +13,7 @@ const Education = ({education, language, showComment}) => {
     let comment = education.comment[language].replace(/"([a-zA-Zа-яёА-ЯЁ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
 
     return (
-        <div className='item_block' onClick={() => showComment(education.id)}>
+        <div className='item_block' onClick={(e) => showComment(e, education.id)}>
             <span className='item_name'>{education.program[language]}</span>
             <span className='item_param'>{education.institution[language]}, {education.city[language]}, {education.country[language]}</span>
             <span className='item_param'>{education.start_date[language]} - {education.end_date[language]}</span>

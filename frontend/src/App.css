@@ -50,12 +50,12 @@ span, .link {
 .header_language {
   height: 30px;
   width: 50px;
-  border-radius: 50%;
+  -webkit-box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
   cursor: pointer;
   margin-right: 5px;
   background-size: cover;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .header_language_EN {
@@ -71,7 +71,9 @@ span, .link {
 }
 
 .header_title {
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .theme_block {
@@ -79,8 +81,8 @@ span, .link {
   overflow: hidden;
   height: 40px;
   width: 90px;
-  -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
 
@@ -95,8 +97,10 @@ span, .link {
   top: 15%;
   z-index: 3;
   background-color: #ecc925;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 .theme_sky_one {
@@ -244,11 +248,17 @@ span, .link {
 
 .menu_link {
   color: #404040;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 16px;
+}
+
+.menu_link:hover {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .menu_link.active {
-  font-weight: bold;
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
 }
 
 .m_menu_open {
@@ -262,6 +272,7 @@ span, .link {
           justify-content: space-between;
   width: 35px;
   height: 30px;
+  cursor: pointer;
 }
 
 .m_menu_open_line {
@@ -305,6 +316,10 @@ span, .link {
   opacity: 0.7;
 }
 
+.m_menu_education, .m_menu_experience {
+  display: none;
+}
+
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,12 +350,12 @@ span, .link {
 
 .skills_title {
   margin-bottom: 10px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .item_block {
   width: 80%;
-  border: 1px dashed #A6A6A6;
+  border: 1px solid #B1B1B1;
   padding: 10px 45px 10px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,7 +370,12 @@ span, .link {
 }
 
 .item_name {
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.item_param {
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 .item_link {
@@ -367,7 +387,8 @@ span, .link {
 .item_comment {
   display: none;
   margin-top: 15px;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .item_arrow {
@@ -391,7 +412,11 @@ span, .link {
 
 .link {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .main_content {
@@ -426,7 +451,7 @@ span, .link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px dashed #A6A6A6;
+  border: 1px solid #B1B1B1;
   width: 300px;
   padding: 10px;
 }
@@ -511,6 +536,8 @@ span, .link {
   width: 190px;
   aspect-ratio: 1/1;
   z-index: 4;
+  -webkit-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .mini_daniil_body {
@@ -533,6 +560,10 @@ span, .link {
   background-color: #f2cfaf;
   border-radius: 50%;
   z-index: 5;
+  -webkit-box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 .mini_daniil_hair {
@@ -566,6 +597,8 @@ span, .link {
   background-color: green;
   border-radius: 50%;
   z-index: 6;
+  -webkit-box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .mini_daniil_right_eye {
@@ -576,6 +609,8 @@ span, .link {
   background-color: green;
   border-radius: 50%;
   z-index: 6;
+  -webkit-box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .mini_daniil_left_eyebrow {
@@ -626,6 +661,8 @@ span, .link {
   background-color: #f2cfaf;
   border-radius: 50%;
   z-index: 6;
+  -webkit-box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .mini_daniil_left_arm {
@@ -737,6 +774,10 @@ span, .link {
   width: 100%;
   background-color: black;
   z-index: 5;
+  -webkit-box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
 .mini_daniil_trousers {
@@ -804,18 +845,25 @@ span, .link {
           transform-origin: top right;
 }
 
-.mini_daniil_text_cloud {
+.mini_daniil_text_block {
   bottom: -40%;
   left: 160%;
-  height: 120%;
-  width: 160%;
+  height: 140%;
+  width: 190%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mini_daniil_text_cloud {
   border: 1px solid #404040;
   border-radius: 50%;
   background-color: white;
-  color: #404040;
-  z-index: 1;
-  padding: 5px;
-  font-size: 12px;
+  z-index: 5;
+}
+
+.mini_daniil_text {
+  z-index: 7;
+  padding: 8px 10px;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -823,24 +871,24 @@ span, .link {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 5;
+  font-size: 12px;
+  color: #404040;
 }
 
 .mini_daniil_text_cloud_bottom {
-  bottom: 67%;
-  left: 176%;
+  bottom: 62%;
+  left: 172%;
   width: 15%;
   aspect-ratio: 1/1;
   border-left: 1px solid;
   border-top: 1px solid;
   border-color: #404040;
   background-color: white;
-  rotate: 5deg;
   z-index: 6;
 }
 
 .text_cloud_bottom_mirror {
-  right: 175%;
+  right: 172%;
   left: auto;
   rotate: 85deg;
 }
@@ -891,7 +939,7 @@ span, .link {
   .menu_link {
     width: 60%;
     padding: 10px 0;
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid #A6A6A6;
     text-align: center;
   }
   .menu_link:last-child {
@@ -927,13 +975,8 @@ span, .link {
     top: calc(100% - 240px);
     width: 170px;
   }
-  .mini_daniil_text_cloud_bottom {
-    bottom: 66%;
-    left: 178%;
-  }
-  .text_cloud_bottom_mirror {
-    right: 178%;
-    left: auto;
+  .mini_daniil_text {
+    font-size: 11px;
   }
 }
 

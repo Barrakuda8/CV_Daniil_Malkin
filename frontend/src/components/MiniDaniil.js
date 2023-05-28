@@ -1,10 +1,8 @@
 import React from 'react';
-import language_data from '../site_content.json';
 
-const MiniDaniil = ({language, miniDaniilClick}) => {
+const MiniDaniil = ({miniDaniilClick}) => {
 
     /*
-        language: site's current language (string)
         miniDaniilClick: function processing clicks on Mini Daniil
         return: the figure of Mini Daniil
     */
@@ -48,7 +46,8 @@ const MiniDaniil = ({language, miniDaniilClick}) => {
                         <div className='mini_daniil_right_bottom_leg'></div>
                     </div>
                 </div>
-                <div className='mini_daniil_text_cloud cloud_text'>{language_data[language]['mini_daniil']['initial']}</div>
+                <div className='mini_daniil_text_cloud mini_daniil_text_block cloud_text'></div>
+                <div className='mini_daniil_text mini_daniil_text_block cloud_text'></div>
                 <div className='mini_daniil_text_cloud_bottom cloud_text'></div>
             </div>
         </div>

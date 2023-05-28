@@ -32,7 +32,7 @@ class App extends React.Component {
             'miniDaniilFunc': this.miniDaniilFirst,
             'miniDaniilStep': 0,
             'miniDaniilState': false,
-            'miniDaniilText': 0,
+            'miniDaniilText': -1,
             'miniDaniilInterval': '',
             'miniDaniilTimeout': ''
         }
@@ -48,6 +48,9 @@ class App extends React.Component {
         } else {
             language = 'EN';
         }
+
+        // set Mini Daniil's text
+        $('.mini_daniil_text').html(language_data[language]['mini_daniil']['-1']);
 
         // get prefered theme from cookies or settings or select light theme
         let theme = cookie.get('theme');
@@ -117,6 +120,8 @@ class App extends React.Component {
                     window.clearTimeout(this.state.miniDaniilTimeout);
                 }
             } else {
+
+                $('.mini_daniil').css('left', '');
 
                 if([6, 7, 8, 9].includes(step)) {
                     $('.mini_daniil').css('top', $('.header_top').height() * 1.2 + 'px');
@@ -203,7 +208,7 @@ class App extends React.Component {
         const cookie = new Cookies();
         cookie.set('language', language);
         this.setState({'language': language});
-        $('.mini_daniil_text_cloud').html(language_data[language]['mini_daniil'][this.state.miniDaniilText]);
+        $('.mini_daniil_text').html(language_data[language]['mini_daniil'][this.state.miniDaniilText]);
     }
 
     changeTheme = () => {
@@ -236,13 +241,9 @@ class App extends React.Component {
         */
 
         if(theme == 'dark') {
-            window.setTimeout(() => {
-                $('head').append('<link rel="stylesheet" href="/darkApp.css" id="dark_mode">');
-            }, 500);
+            $('head').append('<link rel="stylesheet" href="/darkApp.css" id="dark_mode">');
         } else {
-            window.setTimeout(() => {
-                $('#dark_mode').remove();
-            }, 500);
+            $('#dark_mode').remove();
         }
 
         for(const [el, style] of Object.entries(theme_data[theme])) {
@@ -250,21 +251,22 @@ class App extends React.Component {
         }
     }
 
-    showComment = (id) => {
+    showComment = (e, id) => {
 
         /* 
             id: item's id (int)
 
             item's onclick method to show or hide the comment connected to the item
         */
-
-        if($(`.comment_${id}`).css('display') == 'none') {
-            $(`.comment_${id}`).css('display', 'inline');
-            $(`.arrow_${id}`).addClass('item_arrow_hide');
-        } else {
-            $(`.comment_${id}`).css('display', '');
-            $(`.arrow_${id}`).removeClass('item_arrow_hide');
-        }
+        if(!e.target.classList.contains('item_link')) {
+            if($(`.comment_${id}`).css('display') == 'none') {
+                $(`.comment_${id}`).css('display', 'inline');
+                $(`.arrow_${id}`).addClass('item_arrow_hide');
+            } else {
+                $(`.comment_${id}`).css('display', '');
+                $(`.arrow_${id}`).removeClass('item_arrow_hide');
+            }
+        };
     }
 
     miniDaniilClick = () => {
@@ -344,7 +346,7 @@ class App extends React.Component {
 
             let currentText = language_data[this.state.language]['mini_daniil'][currentTextId];
 
-            $('.mini_daniil_text_cloud').html(currentText);
+            $('.mini_daniil_text').html(currentText);
             $('.cloud_text').css('display', '');
 
             if(actionText == this.state.miniDaniilText && actionFunc != undefined) {
@@ -695,6 +697,7 @@ class App extends React.Component {
         */
 
         $('.cloud_text').css('display', 'none');
+        this.setState({'miniDaniilText': 0});
         this.miniDaniilWaveHand(2, 2, this.miniDaniilSecond);
         this.setState({'miniDaniilStep': 1});
     }
@@ -865,15 +868,20 @@ class App extends React.Component {
             executes MD's saying phase number 17 and showing education item in site's menu
         */
 
+        let talkFunc;
         if(window.innerWidth >= 768) {
             this.miniDaniilLift70LeftHand();
+            talkFunc = () => $('#menu_education')[0].click();
         } else {
             if($('.m_menu_open').css('display') != 'none') {
                 $('.m_menu_open').trigger('click');
             }
+            talkFunc = () => {
+                $('.m_menu_education')[0].click();
+            }
             this.miniDaniilLift70RightHand();
         }
-        this.miniDaniilTalk(17, 12, this.miniDaniilTwelfth, 17, () => $('#menu_education')[0].click());
+        this.miniDaniilTalk(17, 12, this.miniDaniilTwelfth, 17, talkFunc);
     }
 
     miniDaniilTwelfth = () => {
@@ -895,7 +903,9 @@ class App extends React.Component {
                     $('.m_menu_open').trigger('click');
                 }
                 this.miniDaniilLift70RightHand();
-                this.miniDaniilTalk(18, 13, this.miniDaniilThirteenth, 18, () => $('#menu_experience')[0].click());
+                this.miniDaniilTalk(18, 13, this.miniDaniilThirteenth, 18, () => {
+                    $('.m_menu_experience')[0].click();
+                });
             }, 200)});
         }
     }
@@ -910,7 +920,7 @@ class App extends React.Component {
 
         if(window.innerWidth >= 768) {
             this.miniDaniilPutDownRightHand();
-            $('.mini_daniil_text_cloud').css({'right': '160%', 'left': 'auto'});
+            $('.mini_daniil_text_block').css({'right': '160%', 'left': 'auto'});
             $('.mini_daniil_text_cloud_bottom').addClass('text_cloud_bottom_mirror');
             this.miniDaniilMove('#menu_skillset', 14, this.miniDaniilFourteenth, '#menu_game');
         } else {
@@ -929,12 +939,23 @@ class App extends React.Component {
             executes MD's saying phases from 19 to 21 and showing skillset item in site's menu
         */
 
+        let talkFunc;
         if(window.innerWidth >= 768) {
             this.miniDaniilLift70LeftHand();
-        } else if($('.m_menu_open').css('display') != 'none') {
-           $('.m_menu_open').trigger('click');
+            talkFunc = () => $('#menu_skillset')[0].click();
+        } else {
+            if($('.m_menu_open').css('display') != 'none') {
+                $('.m_menu_open').trigger('click');
+            };
+            if(this.state.miniDaniilText < 20) {
+                this.miniDaniilLift70RightHand();
+            }
+            talkFunc = () => {
+                $('#menu_skillset')[0].click();
+                this.miniDaniilPutDownRightHand();
+            }
         };
-        this.miniDaniilTalk(21, 15, this.miniDaniilFifteenth, 21, () => $('#menu_skillset')[0].click());
+        this.miniDaniilTalk(21, 15, this.miniDaniilFifteenth, 20, talkFunc);
     }
 
     miniDaniilFifteenth = () => {
@@ -955,7 +976,13 @@ class App extends React.Component {
                 if($('.m_menu_open').css('display') != 'none') {
                     $('.m_menu_open').trigger('click');
                 }
-                this.miniDaniilTalk(25, 16, this.miniDaniilSixteenth, 23, () => $('#menu_game')[0].click());
+                if(this.state.miniDaniilText < 23) {
+                    this.miniDaniilLift70RightHand();
+                }
+                this.miniDaniilTalk(25, 16, this.miniDaniilSixteenth, 23, () => {
+                    $('#menu_game')[0].click();
+                    this.miniDaniilPutDownRightHand();
+                });
             }, 200)});
         }
     }
@@ -981,7 +1008,6 @@ class App extends React.Component {
                 });
             });
         }
-        this.miniDaniilPutDownRightHand();
         this.miniDaniilTalk(28, 17, this.miniDaniilSeventeenth, 26, () => $('.header_title')[0].click());
     }
 
@@ -1031,7 +1057,7 @@ class App extends React.Component {
         this.miniDaniilNetsAppear($('.mini_daniil').height() * -1.5, false);
         this.setState({'miniDaniilTimeout': window.setTimeout(() => {
             $('.mini_daniil').css('display', 'none');
-        }, 5000)})
+        }, 3500)})
     }
 
     render () {
@@ -1044,7 +1070,7 @@ class App extends React.Component {
                             changeLanguage={(language) => this.setLanguage(language)} 
                             changeTheme={() => this.changeTheme()}
                 />
-                <MiniDaniil language={this.state.language} miniDaniilClick={this.miniDaniilClick} />
+                <MiniDaniil miniDaniilClick={this.miniDaniilClick} />
                 <Routes>
                     <Route exact path={'/'} element={<MainPage language={this.state.language} />}/>
                     <Route exact path={'/portfolio'} element={<PortfolioPage 

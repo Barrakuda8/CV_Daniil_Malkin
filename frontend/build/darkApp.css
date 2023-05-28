@@ -2,7 +2,7 @@ body, .header, .game_speed, .mini_daniil_text_cloud, .mini_daniil_text_cloud_bot
   background-color: #404040;
 }
 
-span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text_cloud {
+span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text {
   color: white;
 }
 
@@ -63,9 +63,6 @@ span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text_cloud {
 @media (max-width: 767px) {
   .menu_block {
     background-color: #404040;
-  }
-  .menu_link {
-    border-bottom: 1px solid white;
   }
 }
 /*# sourceMappingURL=darkApp.css.map */

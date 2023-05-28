@@ -65,6 +65,18 @@ const GamePage = ({language}) => {
         })
     }
 
+    function checkInput(e) {
+        let value = parseInt(e.target.value);
+
+        if(value > 10) {
+            value = 10;
+        } else if (value < 1) {
+            value = 1;
+        }
+        
+        $('.game_speed').val(value);
+    }
+
     return (
         <div className='content'>
             <div className='game_top_block'>
@@ -74,7 +86,7 @@ const GamePage = ({language}) => {
                 </div>
                 <div className='game_speed_block'>
                     <span className='game_speed_label'>{language_data[language]['/game']['game_speed_label']}</span>
-                    <input className='game_speed' type='number' min='1' max='10' defaultValue={3}/>
+                    <input className='game_speed' type='number' min='1' max='10' defaultValue={3} onInput={checkInput}/>
                 </div>
             </div>
             <div className='game_button_block' onMouseEnter={moveButton} onClick={moveButton}>

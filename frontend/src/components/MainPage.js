@@ -9,7 +9,7 @@ const MainPage = ({language}) => {
         return: block with a photo and a text
     */
 
-    let text = language_data[language]['/']['main_text'].replace(/\n/g, '</br></br>').replace(/"([a-zA-Zа-яёА-ЯЁé]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
+    let text = language_data[language]['/']['main_text'].replace(/\n/g, '</br></br>').replace(/"([a-zA-Zа-яёА-ЯЁéÉ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
 
     return (
         <div className='container main_content'>

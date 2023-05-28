@@ -5,7 +5,7 @@ body, .header, .game_speed, .mini_daniil_text_cloud, .mini_daniil_text_cloud_bot
     background-color: $base-color;
 }
 
-span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text_cloud {
+span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text {
     color: $text-color;
 }
 
@@ -67,9 +67,5 @@ span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text_cloud {
 
     .menu_block {
         background-color: $base-color;
-    }
-
-    .menu_link {
-        border-bottom: 1px solid $text-color;
     }
 }
