@@ -10,7 +10,7 @@ const Experience = ({experience, language, showComment}) => {
         return: experience's block-container with information about it
     */
 
-    let comment = experience.comment[language].replace(/"([a-zA-Zа-яёА-ЯЁ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
+    let comment = experience.comment[language].replace(/"([a-zA-Zа-яёА-ЯЁéÉ]+)\|([a-zA-Zа-яёА-ЯЁ]+)"/g, '<a href="/$2" className="link">$1</a>');
 
     return (
         <div className='item_block' onClick={(e) => showComment(e, experience.id)}>
