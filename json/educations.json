@@ -69,7 +69,7 @@
         },
         "comment": {
             "EN": "I graduated in 2021 and didn't continue my studies in the field of management because I finally realized what I wanted to do for a living and switched to programming.",
-            "FR": "J'ai obtenu mon diplôme en 2021 et je n'ai pas poursuivi mes études dans le domaine de la gestion car j'ai enfin réalisé ce que je voulais faire dans la vie et je suis passé à la programmation.",
+            "FR": "J'ai obtenu mon diplôme en 2021, et je n'ai pas poursuivi mes études dans le domaine de la gestion, car j'ai enfin réalisé ce, que je voulais faire dans la vie, et je suis passé à la programmation.",
             "RU": "Я получил диплом бакалавра в 2021 и не стал продолжать обучение в направлении менеджмента, потому что наконец понял, чем хочу зарабатывать на жизнь, и пошёл в программирование."
         }
     },
@@ -106,7 +106,7 @@
         },
         "comment": {
             "EN": "I studied Python, its algorithms, data structures, and architectural patterns; how to make sites' backends with Django and Django REST frameworks; and client-server applications with PyQT and threads. As for the frontend, I learned HTML, CSS, JavaScript, React, and a little bit of Vue.js. There were also courses on MySQL, Linux, Git, and Agile methodology and team practice with it.",
-            "FR": "J'ai étudié Python, ses algorithmes, ses structures de données et ses modèles architecturaux ; comment créer des backends de sites avec les frameworks Django et Django REST ; et des applications client-serveur avec PyQT et des threads. En ce qui concerne le frontend, j'ai appris HTML, CSS, JavaScript, React et un peu de Vue.js. Il y avait aussi des cours sur MySQL, Linux, Git et la méthodologie Agile et des travaux pratiques en équipe avec elle.",
+            "FR": "J'ai étudié Python, ses algorithmes, ses structures de données et ses modèles architecturaux; comment créer des backends de sites avec les frameworks Django et Django REST; et des applications client-serveur avec PyQT et des threads. En ce, qui concerne le frontend, j'ai appris HTML, CSS, JavaScript, React et un peu de Vue.js. Il y avait aussi des cours sur MySQL, Linux, Git et la méthodologie Agile et des travaux pratiques en équipe avec elle.",
             "RU": "Я изучал Python, его алгоритмы, структуры данных и архитектурные паттерны; как писать бэкенд с помощью фреймворков Django и Django REST; и клиент-серверные приложения с использованием PyQT и потоков. Что касается фронтенда, я научился работать с HTML, CSS, JavaScript, React и немного с Vue.js. Также я прошёл курсы по MySQL, Linux, Git и методологии Agile, а также командную практику с её использованием."
         }
     }

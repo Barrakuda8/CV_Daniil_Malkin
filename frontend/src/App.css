@@ -941,6 +941,8 @@ span, .link {
     padding: 10px 0;
     border-bottom: 1px solid #A6A6A6;
     text-align: center;
+    line-height: 21px;
+    font-size: 14px;
   }
   .menu_link:last-child {
     border-bottom: none;
@@ -952,7 +954,6 @@ span, .link {
   }
   .item_block {
     padding-right: 40px;
-    font-size: 14px;
   }
   .item_arrow {
     width: 10px;
@@ -981,9 +982,6 @@ span, .link {
 }
 
 @media (max-width: 512px) {
-  .item_block {
-    font-size: 12px;
-  }
   .main_photo {
     width: 30%;
   }
@@ -1014,6 +1012,19 @@ span, .link {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
+  }
+  .item_name {
+    font-size: 14px;
+  }
+  .item_param {
+    font-size: 12px;
+  }
+  .item_link {
+    font-size: 14px;
+    width: 190px;
+  }
+  .item_comment {
+    font-size: 12px;
   }
   .mini_daniil {
     top: calc(100% - 210px);

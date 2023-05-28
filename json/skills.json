@@ -60,7 +60,7 @@
         "type": "programming",
         "comment": {
             "EN": "I have quite a lot of experience with Django: several courses, training projects, and a full-fledged site that you can find through the \"Portfolio|portfolio\" section.",
-            "FR": "J'ai pas mal d'expérience avec Django : plusieurs cours, des projets de formation, et un site complet que vous pouvez retrouver dans la rubrique \"Portfolio|portfolio\".",
+            "FR": "J'ai pas mal d'expérience avec Django: plusieurs cours, des projets de formation, et un site complet, que vous pouvez retrouver dans la rubrique \"Portfolio|portfolio\".",
             "RU": "Я меня достаточно много опыта работы с Django: несколько курсов, учебных проектов и полноценный сайт, который вы можете найти, перейдя в раздел \"Портфолио|portfolio\"."
         }
     },
@@ -86,7 +86,7 @@
         "type": "programming",
         "comment": {
             "EN": "It is an essential language to know for every full-stack developer, and I am excellent at it. I use a ton of JavaScript in both my real projects, and I really like to write on it. It is worth noting that I have experience using WebSockets.",
-            "FR": "C'est un langage essentiel à connaître pour tout développeur full-stack, et je le maîtrise parfaitement. J'utilise une tonne de JavaScript dans mes deux projets réels, et j'aime vraiment programmer avec. Il est à noter que j'ai de l'expérience avec les WebSockets.",
+            "FR": "C'est un langage essentiel à connaître pour tout développeur full-stack, et je le maîtrise excellemment. J'utilise une tonne de JavaScript dans mes deux projets réels, et j'aime vraiment programmer avec. Il est à noter, que j'ai de l'expérience avec les WebSockets.",
             "RU": "Это язык программирования, необходимый любому full-stack разработчику, и я отлично им владею. Огромная часть кода в обоих моих проектах написана на этом языке, и я люблю на нём писать. Также стоит отметить, что у меня есть определённый опыт работы с WebSockets."
         }
     },
@@ -99,7 +99,7 @@
         "type": "programming",
         "comment": {
             "EN": "I like this library and use it a lot when working with JavaScript.",
-            "FR": "J'aime cette bibliothèque et je l'utilise beaucoup lorsque je travaille avec JavaScript.",
+            "FR": "J'aime cette bibliothèque, et je l'utilise beaucoup, lorsque je travaille avec JavaScript.",
             "RU": "Мне нравится эта библиотека, и я очень часто ею пользуюсь при работе с JavaScript."
         }
     },
@@ -151,7 +151,7 @@
         "type": "programming",
         "comment": {
             "EN": "I am excellent at CSS. I use the SCSS preprocessor very often because it is a very practical solution.",
-            "FR": "Je suis excellent en CSS. J'utilise souvent le préprocesseur SCSS car c'est une solution très pratique.",
+            "FR": "Je suis excellent en CSS. J'utilise souvent le préprocesseur SCSS, car c'est une solution très pratique.",
             "RU": "Я отлично разбираюсь в CSS. Я часто пользуюсь препроцессором SCSS, потому что это очень удобное решение."
         }
     },
@@ -177,7 +177,7 @@
         "type": "programming",
         "comment": {
             "EN": "I have had a little experience with Redis while working with ASGI.",
-            "FR": "J'ai eu une petite expérience avec Redis lorsque j'ai travaillé avec ASGI.",
+            "FR": "J'ai eu une petite expérience avec Redis, lorsque j'ai travaillé avec ASGI.",
             "RU": "Я получил небольшой опыт использования Redis, когда работал с ASGI."
         }
     },

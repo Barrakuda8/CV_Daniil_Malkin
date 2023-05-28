@@ -258,7 +258,7 @@ class App extends React.Component {
 
             item's onclick method to show or hide the comment connected to the item
         */
-        if(!e.target.classList.contains('item_link')) {
+        if(!e.target.classList.contains('item_link') && !e.target.classList.contains('link')) {
             if($(`.comment_${id}`).css('display') == 'none') {
                 $(`.comment_${id}`).css('display', 'inline');
                 $(`.arrow_${id}`).addClass('item_arrow_hide');
