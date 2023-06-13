@@ -1,11 +1,11 @@
 $base-color: #404040;
 $text-color: white;
 
-body, .header, .game_speed, .mini_daniil_text_cloud, .mini_daniil_text_cloud_bottom {
+body, .header, .game_speed {
     background-color: $base-color;
 }
 
-span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text {
+span, .menu_link, .header_title, .link, .game_speed {
     color: $text-color;
 }
 

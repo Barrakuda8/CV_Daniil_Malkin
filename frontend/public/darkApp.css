@@ -1,8 +1,8 @@
-body, .header, .game_speed, .mini_daniil_text_cloud, .mini_daniil_text_cloud_bottom {
+body, .header, .game_speed {
   background-color: #404040;
 }
 
-span, .menu_link, .header_title, .link, .game_speed, .mini_daniil_text {
+span, .menu_link, .header_title, .link, .game_speed {
   color: white;
 }
 
